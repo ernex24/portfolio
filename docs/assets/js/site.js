@@ -27,7 +27,6 @@ $(document).ready(function(){
 
 	});
 
-
 	// Mouse Scroll Icon
 
 	$('.mouse-scroll-icon a').click(function(){
