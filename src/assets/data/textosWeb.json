@@ -1,0 +1,109 @@
+{
+  "ngx-portfolio:":  {
+
+  "menu": [
+    {
+      "menu": "Home",
+      "menuLink": "#home"
+    },
+    {
+      "menu": "About Me",
+      "menuLink": "#about-me"
+    },
+    {
+      "menu": "Works",
+      "menuLink": "#works"
+    },
+    {
+      "menu": "My Resume",
+      "menuLink": "#resume"
+    },
+    {
+      "menu": "Say Hello",
+      "menuLink": "#hello"
+    }
+  ],
+  "hello": "Hello",
+  "title": "I’m Ernesto Pérez",
+  "subTitle": "I design and build digital experiences here you can find my recent projects and all my information",
+  "mobileAvatar": "assets/images/mobile-avatar.jpg",
+  "aboutMeImage": "http://via.placeholder.com/640x343.jpg",
+  "aboutMe": "About me",
+  "aboutMeText": "I’m a user interface and user experience designer, product designer, and front-end developer. I design and build responsive websites and products; I also design apps and systems. My focus is on products and services that honor their user's humanity and help improve our world. I'm also crazy about typography, dogs, and coffee.",
+  "rrssTitle": "Find me at",
+  "facebook": "https://www.facebook.com",
+  "twitter": "https://www.twitter.com",
+  "instagram": "https://www.instagram.com",
+  "dribbble": "https://www.dribble.com",
+  "behance": "https://www.behance.com",
+  "worksTitle": "Works",
+  "worksCopy": "Works A select group of projects completed 2016/2017",
+  "proyectos": [
+    {
+      "id": "1",
+      "imagenProyecto": "http://via.placeholder.com/640x553.jpg",
+      "tuituloProyecto": "Timer App",
+      "descripcionProyecto": "To scale and impact, we must stand up compelling effective altruism collaborative consumption thought provoking. The collaborative cities, radical; relief, strengthening infrastructure.",
+      "imagen1carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "imagen2carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "imagen3carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "copyProyecto": "The Timer App is an iOS app design to be the cleanest and most simple timer app ever created. Stop, start and time yourself.",
+      "worksBoton": "Visit Project"
+    },
+    {
+      "id": "2",
+      "imagenProyecto": "http://via.placeholder.com/640x553.jpg",
+      "tuituloProyecto": "Timer App",
+      "descripcionProyecto": "To scale and impact, we must stand up compelling effective altruism collaborative consumption thought provoking. The collaborative cities, radical; relief, strengthening infrastructure.",
+      "imagen1carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "imagen2carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "imagen3carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "copyProyecto": "The Timer App is an iOS app design to be the cleanest and most simple timer app ever created. Stop, start and time yourself.",
+      "worksBoton": "Visit Project"
+    },
+    {
+      "id": "3",
+      "imagenProyecto": "http://via.placeholder.com/640x553.jpg",
+      "tuituloProyecto": "Timer App",
+      "descripcionProyecto": "To scale and impact, we must stand up compelling effective altruism collaborative consumption thought provoking. The collaborative cities, radical; relief, strengthening infrastructure.",
+      "imagen1carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "imagen2carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "imagen3carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+      "copyProyecto": "The Timer App is an iOS app design to be the cleanest and most simple timer app ever created. Stop, start and time yourself.",
+      "worksBoton": "Visit Project"
+    }
+  ],
+  "myCvTitle": "My Resume",
+  "myCv": "A select group of projects completed 2016/2017",
+  "tituloCV": "Carrer",
+  "curriculumVitae": [
+    {
+      "tituloTrabajo": "Facebook",
+      "descTrabajo": "Lead Designer",
+      "dateTrabajo": "Now - 2016"
+    },
+    {
+      "tituloTrabajo": "Google",
+      "descTrabajo": "Product Designer",
+      "dateTrabajo": "2016 - 2015"
+    },
+    {
+      "tituloTrabajo": "Twitter",
+      "descTrabajo": "Product Designer",
+      "dateTrabajo": "2014 - 2012"
+    },
+    {
+      "tituloTrabajo": "FourSquar",
+      "descTrabajo": "Jnr Designer",
+      "dateTrabajo": "2011 - 2010"
+    }
+  ],
+  "copyCV": "MY RESUME",
+  "copyCV2": "A select group of projects completed 2016/2017",
+  "botonCV": "Download My Resume",
+  "contactoTitle": "Say Hello",
+  "contactoCopy": " Drop me a message to say hello, ask me a question or check my work availability. I’m always happy to say hello and answer any questions you might have.Drop me an Email",
+  "botonContacto": "Send me a Message",
+  "footer": "All rights reserved"
+  }
+}

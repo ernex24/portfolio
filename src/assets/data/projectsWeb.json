@@ -1,0 +1,40 @@
+[
+  {
+"proyectos": {
+"projecto1": [ {
+"id":"1",
+"imagenProyecto": "http://via.placeholder.com/640x553.jpg",
+"tuituloProyecto": "Timer App",
+"descripcionProyecto": "To scale and impact, we must stand up compelling effective altruism collaborative consumption thought provoking. The collaborative cities, radical; relief, strengthening infrastructure.",
+"imagen1carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"imagen2carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"imagen3carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"copyProyecto": "The Timer App is an iOS app design to be the cleanest and most simple timer app ever created. Stop, start and time yourself.",
+"worksBoton": "Visit Project"
+},
+  {
+"projecto2": {
+"id":"1",
+"imagenProyecto": "http://via.placeholder.com/640x553.jpg",
+"tuituloProyecto": "Timer App",
+"descripcionProyecto": "To scale and impact, we must stand up compelling effective altruism collaborative consumption thought provoking. The collaborative cities, radical; relief, strengthening infrastructure.",
+"imagen1carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"imagen2carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"imagen3carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"copyProyecto": "The Timer App is an iOS app design to be the cleanest and most simple timer app ever created. Stop, start and time yourself.",
+"worksBoton": "Visit Project"
+},
+  {
+"projecto3": {
+"id":"1",
+"imagenProyecto": "http://via.placeholder.com/640x553.jpg",
+"tuituloProyecto": "Timer App",
+"descripcionProyecto": "To scale and impact, we must stand up compelling effective altruism collaborative consumption thought provoking. The collaborative cities, radical; relief, strengthening infrastructure.",
+"imagen1carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"imagen2carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"imagen3carruselProyecto": "http://via.placeholder.com/640x553.jpg",
+"copyProyecto": "The Timer App is an iOS app design to be the cleanest and most simple timer app ever created. Stop, start and time yourself.",
+"worksBoton": "Visit Project"
+}
+  }
+]

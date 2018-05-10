@@ -1,0 +1,204 @@
+
+  <!-- Header Left Column (Headshot) - To update this image please go to line 232 in the css stylesheet -->
+
+  <div class="left-column-headshot animated fadeIn"></div>
+
+  <div class="right-column-fixed animated fadeIn">
+
+      <div class="nav-desktop">
+          <ul>
+              <li *ngFor=" let menu of _tws.info.menu">
+                  <a pageScroll [href]=" menu.menuLink">{{ menu.menu }}</a>
+              </li>
+          </ul>
+      </div>
+
+
+
+    <!-- Nav mobile -->
+    <div class="nav-overlay animated">
+      <div class="nav-inner">
+          <ul>
+              <li>
+            <li *ngFor=" let menu of _tws.info.menu">
+              <a pageScroll [href]=" menu.menuLink">{{ menu.menu }}</a>
+            </li>
+          </ul>
+
+        <div class="divider"></div>
+
+      </div>
+    </div>
+
+
+    <a href="#" class="hamburger hamburger--spin">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+    </a>
+
+    <div class="right-column-inner">
+      <!-- Header Right Column -->
+      <div  class="right-column-header">
+
+        <div id="home"  class="right-column-header-inner">
+          <div class="right-column-header-copy">
+            <div class="mobile-avatar">
+              <img [src]=" _tws.info.mobileAvatar"/>
+            </div>
+            <h1>
+                <span>{{ _tws.info.hello }}</span>{{ _tws.info.title }}
+            </h1>
+              <p>{{ _tws.info.subTitle }}</p>
+              <div class="divider"></div>
+          </div>
+        </div>
+
+        <div class="mouse-scroll-icon">
+          <a href="#about-me" class="mouse-icon">
+            <svg width="26px" height="67px" viewBox="0 0 26 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>mouse-icon</title>
+              <desc></desc>
+              <defs>
+                <rect id="path-1" x="0" y="0" width="26" height="41" rx="13"></rect>
+              </defs>
+              <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Desktop-HD" transform="translate(-750.000000, -766.000000)">
+                  <g id="mouse-icon" transform="translate(750.000000, 766.000000)">
+                    <g id="Combined-Shape">
+                      <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                      <rect stroke="#565656" stroke-width="2" x="1" y="1" width="24" height="39" rx="12"></rect>
+                    </g>
+                    <rect id="Rectangle-2" fill="#565656" x="12" y="8" width="2" height="8" rx="1"></rect>
+                    <rect id="Rectangle-3" fill="#565656" x="12" y="50" width="2" height="16" rx="1"></rect>
+                    <path d="M17.3663681,65.3638667 C17.5462827,65.1835164 17.6568542,64.9346563 17.6568542,64.6598241 L17.6568542,58.6538844 C17.6568542,58.1098906 17.209139,57.6568542 16.6568542,57.6568542 C16.1007191,57.6568542 15.6568542,58.1032398 15.6568542,58.6538844 L15.6568542,63.6568542 L10.6538844,63.6568542 C10.1098906,63.6568542 9.65685425,64.1045695 9.65685425,64.6568542 C9.65685425,65.2129894 10.1032398,65.6568542 10.6538844,65.6568542 L16.6598241,65.6568542 C16.9313339,65.6568542 17.1801856,65.545326 17.3613623,65.3649327 Z" id="Combined-Shape" fill="#565656" transform="translate(13.656854, 61.656854) rotate(-315.000000) translate(-13.656854, -61.656854) "></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+
+
+          <a href="#about-me" class="hand-gesture-icon">
+            <svg width="34px" height="44px" viewBox="0 0 34 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <desc>hand-icon</desc>
+              <defs></defs>
+              <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                <g id="home-full" transform="translate(-771.000000, -765.000000)" stroke="#565656" stroke-width="2">
+                  <g id="Touch-Gestures-Icons-08" transform="translate(772.000000, 766.000000)">
+                    <g id="Group" transform="translate(0.000000, 4.000000)">
+                      <path d="M0,18.3 C2.2,16.2 4.5,17 6.7,19.1 L10.9,22.4 L10.9,3 C10.9,-1 15.9,-1 15.9,3 L15.9,13.9 C15.9,12.4 17.4,11.2 18.9,11.2 C20.4,11.2 21.9,12.4 21.9,13.9 L21.9,16 C21.9,14.5 22.5,13.3 24.1,13.3 C25.6,13.3 26.9,14.5 26.9,16 L26.9,18.5 C26.9,17 27.8,15.8 29.3,15.8 C30.8,15.8 31.8,17 31.8,18.5 L30,27.8 C30,27.8 27.8,37.6 19.8,37.6 C13.5,37.6 9.9,32.3 9.9,32.3 L0,18.3 Z" id="Shape"></path>
+                      <path d="M16,12 L16,16" id="Shape"></path>
+                      <path d="M22,15 L22,17" id="Shape"></path>
+                      <path d="M27,17 L27,19" id="Shape"></path>
+                    </g>
+                    <g id="hand" transform="translate(1.000000, 0.000000)">
+                      <path d="M3,13 L3,0" id="Shape"></path>
+                      <g transform="translate(0.000000, 11.000000)" id="arrow">
+                        <path d="M5.8,0.6 L3,3.8"></path>
+                        <path d="M0.2,0.6 L3,3.8"></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Section One -->
+
+      <div class="home-section" id="about-me">
+        <div class="about-image">
+          <img [src]=" _tws.info.aboutMeImage "/>
+        </div>
+        <div class="home-section-copy">
+            <h2>{{ _tws.info.aboutMe }}</h2>
+            <p>{{ _tws.info.aboutMeText }}</p>
+        </div>
+        <div class="about-social-icons-wrapper">
+          <p>
+            {{ _tws.info.rrssTitle }}
+          </p>
+          <div class="about-social-icons">
+              <a [href]="_tws.info.facebook" target="_self" class="social-icon fb"></a>
+              <a [href]="_tws.info.twitter" class="social-icon twitter"></a>
+              <a [href]="_tws.info.instagram" class="social-icon instagram"></a>
+              <a [href]="_tws.info.dribbble" class="social-icon dribbble"></a>
+              <a [href]="_tws.info.behance" class="social-icon behance"></a>
+          </div>
+
+        </div>
+        <div class="divider"></div>
+      </div>
+
+
+      <!-- Section Two -->
+      <div class="home-section" id="works">
+        <div class="home-section-copy">
+          <h2>{{ _tws.info.worksTitle }}</h2>
+          <p>{{ _tws.info.worksCopy }}</p>
+        </div>
+
+        <!-- Works Block One -->
+
+        <div class="works-block" *ngFor="let item of _tws.info.proyectos">
+          <div class="works-image">
+            <a [routerLink]="['/project', item.id ]" >
+              <img [src]="item.imagenProyecto"/>
+            </a>
+          </div>
+          <div class="works-copy">
+            <h3>{{ item.tuituloProyecto }}</h3>
+            <p>{{ item.descripcionProyecto }}</p>
+            <a [routerLink]="['/project', item.id ]" class="blue-button w-arrow">{{ item.worksBoton }}</a>
+          </div>
+
+        </div>
+
+        <div class="divider"></div>
+      </div>
+
+      <!-- Resume/Career Section -->
+      <div class="home-section" id="resume">
+        <div class="home-section-copy">
+          <h2>{{ _tws.info.myCvTitle }}</h2>
+          <p>{{ _tws.info.myCv }}</p>
+        </div>
+        <div class="career-blocks">
+          <div class="career-blocks-title">{{ _tws.info.tituloCV }}</div>
+          <div class="career-blocks-inner">
+            <div class="career-block" *ngFor="let trabajo of _tws.info.curriculumVitae">
+              <p class="title">{{ trabajo.tituloTrabajo }}</p>
+              <p class="subtitle">{{ trabajo.descTrabajo }}</p>
+              <p class="career-block-divide"></p>
+              <p class="date">{{ trabajo.dateTrabajo }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-block">
+          <div class="resume-block-title">{{ _tws.info.copyCV }}</div>
+          <div class="resume-block-sub-title">{{ _tws.info.copyCV2 }}</div>
+          <a href="#" class="blue-button w-arrow">{{ _tws.info.botonCV }}</a>
+        </div>
+        <div class="divider"></div>
+      </div>
+
+      <!-- Contact Section -->
+
+      <div class="home-section" id="hello">
+        <div class="home-section-copy">
+          <h2>{{ _tws.info.contactoTitle }}</h2>
+          <p>{{ _tws.info.contactoCopy }}</p>
+          <a href="mailto:hello@example.com" class="blue-button">{{ _tws.info.botonContacto }}</a>
+        </div>
+        <div class="divider"></div>
+      </div>
+      <app-footer></app-footer>
+    </div>
+
+  </div>
+
+

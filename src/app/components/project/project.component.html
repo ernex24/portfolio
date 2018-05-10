@@ -1,0 +1,51 @@
+
+  <!-- Header Left Column (Headshot) - To update this image please go to line 232 in the css stylesheet -->
+
+  <div class="left-column-portfolio animated fadeIn">
+    <div class="left-column-portfolio-copy">
+      <h1>{{ proyecto.tuituloProyecto }} {{ proyecto.id }}</h1>
+      <p>{{ proyecto.copyProyecto }}</p>
+      <a href="#" class="blue-button w-arrow">{{ proyecto.worksBoton }}</a>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <div class="right-column-fixed animated fadeIn">
+    <!-- Nav -->
+    <div class="back-arrow">
+     <a routerLink="/home"><img src="../assets/images/right-arrow-icon.svg"></a>
+    </div>
+
+    <div class="right-column-inner no-padding">
+
+      <!-- Mobile App Slider -->
+      <div class="portfolio-slider mobile-app-portfolio">
+        <div class="portfolio-slider-inner">
+          <div class="slider">
+            <carousel>
+              <slide>
+                <img [src]="proyecto.imagen1carruselProyecto" alt="first slide" style="display: block; width: 100%;">
+              </slide>
+              <slide>
+                <img [src]="proyecto.imagen2carruselProyecto" alt="second slide" style="display: block; width: 100%;">
+              </slide>
+              <slide>
+                <img [src]="proyecto.imagen3carruselProyecto" alt="third slide" style="display: block; width: 100%;">
+              </slide>
+            </carousel>
+        </div>
+        <div class="slider-pagination"></div>
+      </div>
+    </div>
+
+    <div class="right-column-inner">
+      <div class="portfolio-copy">
+        <p>{{ proyecto.copyLargoProyecto }}</p>
+
+      </div>
+      <div class="divider"></div>
+      <app-footer></app-footer>
+    </div>
+
+  </div>
+</div>
